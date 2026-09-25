@@ -3,39 +3,114 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PySpire Support</title>
+<title>Swipeshine — Swipe to clean your photos</title>
+<meta name="description" content="Review every photo before it goes. Nothing is uploaded, nothing auto-renews.">
+<link rel="icon" href="icon.png">
 <style>
-body { font-family: -apple-system, system-ui, sans-serif; max-width: 640px; margin: 3rem auto; padding: 0 1.5rem; line-height: 1.6; color: #1d1d1f; }
-h1 { font-size: 1.8rem; }
-h2 { font-size: 1.15rem; margin-top: 2rem; }
-a { color: #0071e3; }
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 56px 20px 96px;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1c1c1e; background: #fbfbfd;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  .icon { display: block; width: 96px; height: 96px; border-radius: 22px;
+          margin: 0 0 22px; box-shadow: 0 8px 24px rgba(20,20,40,.14); }
+  h1 { font-size: 34px; line-height: 1.15; margin: 0 0 8px; letter-spacing: -.7px; }
+  h2 { font-size: 19px; margin: 44px 0 10px; letter-spacing: -.2px; }
+  .sub { color: #8a8a8e; font-size: 17px; margin: 0 0 28px; }
+  .lede { font-size: 17px; margin: 0 0 8px; }
+  .card { background: #fff; border: 1px solid #e3e3e8; border-radius: 14px;
+          padding: 18px 20px; margin: 0 0 14px; }
+  .card h3 { margin: 0 0 6px; font-size: 16px; letter-spacing: -.1px; }
+  .card p { margin: 0; color: #48484a; }
+  a { color: #007aff; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 0; }
+  .links a { display: inline-block; padding: 11px 18px; border-radius: 11px;
+             background: #007aff; color: #fff; text-decoration: none;
+             font-weight: 600; font-size: 15px; }
+  .links a.alt { background: #fff; color: #007aff; border: 1px solid #d5d5dc; }
+  .contact { background: #eef4ff; border-left: 4px solid #007aff;
+             padding: 16px 20px; border-radius: 0 10px 10px 0; margin: 8px 0 0; }
+  .contact strong { display: block; font-size: 17px; margin-bottom: 2px; }
+  .langs { border-top: 1px solid #e3e3e8; margin-top: 48px; padding-top: 24px;
+           color: #8a8a8e; font-size: 14px; }
+  .langs p { margin: 0 0 7px; }
+  footer { color: #8a8a8e; font-size: 14px; margin-top: 44px; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #131316; color: #f2f2f7; }
+    .card { background: #1c1c1f; border-color: #2c2c2e; }
+    .card p { color: #c7c7cc; }
+    .links a.alt { background: #1c1c1f; border-color: #2c2c2e; }
+    .contact { background: #17233a; }
+    .sub, .langs, footer { color: #98989f; }
+    .langs { border-color: #2c2c2e; }
+  }
 </style>
 </head>
 <body>
-<h1>PySpire Support</h1>
-<p>PySpire is a Python coding app for iPad — a complete Python interpreter that runs entirely on your device. No account, no internet connection required.</p>
+<main>
 
-<h2>Frequently Asked Questions</h2>
-<p><strong>Is PySpire really free?</strong><br>
-Yes. You get 12 free runs every day. Editing, saving, opening files, and the built-in sample scripts are free forever. If you need more than 12 runs in one day, unlock unlimited runs with a one-time purchase — no subscription, no ads.</p>
+<img class="icon" src="icon.png" alt="Swipeshine app icon" width="96" height="96">
 
-<p><strong>Does my code leave my device?</strong><br>
-No. PySpire never connects to the internet. All code runs locally on your iPad.</p>
+<h1>Swipeshine</h1>
+<p class="sub">Swipe to clean your photos.</p>
 
-<p><strong>Where are my scripts saved?</strong><br>
-In the Files app under On My iPad → PySpire. You can also open any .py file from the Files app with PySpire.</p>
+<p class="lede">Swipe left to delete, right to keep. The ones you delete wait in a
+Trash you review before anything actually goes — and even then, iOS keeps them in
+Recently Deleted for 30 days.</p>
 
-<p><strong>I bought Unlimited but it's not working.</strong><br>
-Tap Restore on the purchase screen, or tap the remaining-quota badge and choose Restore. Purchases are tied to your Apple ID. Family Sharing members may need to restore on their own device.</p>
+<h2>Why it's different</h2>
 
-<p><strong>Which iPad do I need?</strong><br>
-iPadOS 17.5 or later.</p>
+<div class="card">
+<h3>Nothing is final</h3>
+<p>You see every photo before it's deleted, and you confirm the whole batch at once.
+Swiped-left photos collect in a Trash — nothing leaves your library until you tap
+Confirm on that screen. After that, they're still recoverable from the iPhone's own
+Recently Deleted album for 30 days.</p>
+</div>
 
-<p><strong>How do I stop a script that runs forever?</strong><br>
-Tap Stop (or ⌘. on a hardware keyboard). Infinite loops are also stopped automatically after a time limit.</p>
+<div class="card">
+<h3>Nothing leaves your iPhone</h3>
+<p>No server, no account, no analytics, no tracking, no advertising. Your photos are
+never uploaded — there is nowhere for them to go. The app works in airplane mode.</p>
+</div>
 
-<h2>Contact</h2>
-<p>Questions, feedback, or bug reports: <a href="mailto:phoenixchao2002@foxmail.com">phoenixchao2002@foxmail.com</a></p>
-<p><a href="privacy.html">Privacy Policy</a></p>
+<div class="card">
+<h3>No subscription</h3>
+<p>40 photos free, once. After that it's a single one-time purchase that unlocks
+unlimited cleanup. Nothing auto-renews, ever. Restore it on any device with the same
+Apple Account.</p>
+</div>
+
+<h2>Get help</h2>
+<div class="links">
+  <a href="support.html">Support &amp; FAQ</a>
+  <a class="alt" href="privacy.html">Privacy Policy</a>
+</div>
+
+<div class="contact" style="margin-top:20px">
+  <strong>Email us</strong>
+  <a href="mailto:phoenixchao2002@foxmail.com">phoenixchao2002@foxmail.com</a>
+</div>
+<p class="sub" style="margin-top:8px;font-size:15px">We read everything and usually
+reply within two business days.</p>
+
+<div class="langs">
+<p lang="de"><strong>Deutsch</strong> — Fotos wegwischen. Nichts wird gelöscht, bevor du
+es gesehen hast. Nichts wird hochgeladen. Kein Abo.</p>
+<p lang="fr"><strong>Français</strong> — Balaye pour trier tes photos. Rien n'est supprimé
+avant que tu l'aies vu. Rien n'est envoyé. Sans abonnement.</p>
+<p lang="es"><strong>Español</strong> — Desliza para ordenar tus fotos. Nada se borra sin
+que lo hayas visto. Nada se sube. Sin suscripción.</p>
+<p lang="it"><strong>Italiano</strong> — Scorri per ordinare le tue foto. Niente viene
+eliminato prima che tu l'abbia visto. Niente viene caricato. Nessun abbonamento.</p>
+</div>
+
+<footer>Swipeshine · <a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a></footer>
+
+</main>
 </body>
 </html>

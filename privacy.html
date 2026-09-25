@@ -3,35 +3,183 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PySpire Privacy Policy</title>
+<title>Swipeshine — Privacy Policy</title>
 <style>
-body { font-family: -apple-system, system-ui, sans-serif; max-width: 640px; margin: 3rem auto; padding: 0 1.5rem; line-height: 1.6; color: #1d1d1f; }
-h1 { font-size: 1.8rem; }
-h2 { font-size: 1.15rem; margin-top: 2rem; }
-a { color: #0071e3; }
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 48px 20px 96px;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1c1c1e; background: #fbfbfd;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -.4px; }
+  h2 { font-size: 19px; margin: 40px 0 10px; letter-spacing: -.2px; }
+  h3 { font-size: 16px; margin: 28px 0 8px; color: #6b6b70; font-weight: 600;
+       text-transform: uppercase; letter-spacing: .06em; }
+  .updated { color: #8a8a8e; font-size: 14px; margin: 0 0 32px; }
+  .lead { font-size: 18px; background: #eef4ff; border-left: 4px solid #007aff;
+          padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 0 0 8px; }
+  ul { padding-left: 22px; }
+  li { margin: 5px 0; }
+  a { color: #007aff; }
+  hr { border: 0; border-top: 1px solid #e3e3e8; margin: 56px 0 40px; }
+  .lang { border-top: 1px solid #e3e3e8; padding-top: 26px; margin-top: 34px; }
+  footer { color: #8a8a8e; font-size: 14px; margin-top: 56px; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #131316; color: #f2f2f7; }
+    .lead { background: #17233a; }
+    h3 { color: #98989f; }
+    .updated, footer { color: #98989f; }
+    hr, .lang { border-color: #2c2c2e; }
+  }
 </style>
 </head>
 <body>
-<h1>PySpire Privacy Policy</h1>
-<p>Last updated: August 30, 2026</p>
-<p>PySpire is designed to be completely offline. This policy explains what little data there is to explain.</p>
+<main>
 
-<h2>Data we collect</h2>
-<p>None. PySpire does not create an account, does not collect, store, or transmit any personal information, and does not make any network requests. Your code and your scripts stay on your iPad and are never sent anywhere.</p>
+<h1>Swipeshine Privacy Policy</h1>
+<p class="updated">Last updated: 25 September 2026</p>
 
-<h2>In-app purchases</h2>
-<p>PySpire offers a one-time in-app purchase. Payments are processed entirely by Apple through the App Store; PySpire receives no payment information. Apple's privacy policy applies to purchase processing.</p>
+<p class="lead"><strong>The short version:</strong> Swipeshine does not collect your
+data. There is no server, no account, no analytics, and no tracking. Your photos
+never leave your device.</p>
 
-<h2>Analytics and advertising</h2>
-<p>PySpire contains no analytics, no tracking, and no advertising.</p>
+<h2>What the app accesses, and why</h2>
+
+<h3>Your photo library</h3>
+<p>Swipeshine asks for photo library access for exactly two reasons: to display your
+photos so you can review them, and to delete the ones you choose. This access is
+required for the app to function at all — it is a photo review tool.</p>
+<p>All image processing happens on your device. Swipeshine has no servers, so there
+is nowhere for your photos to be sent even in principle. The app does not upload your
+photos, thumbnails, metadata, or anything derived from them.</p>
+
+<h3>Storage space figures</h3>
+<p>To show you how much space a deletion would free, Swipeshine estimates the size of
+each photo from its pixel dimensions and format. This calculation happens entirely on
+your device.</p>
+
+<h2>What we collect</h2>
+<p><strong>Nothing.</strong> We do not collect, store, transmit, sell, or share any
+personal data.</p>
+<p>Specifically, Swipeshine does <strong>not</strong> collect:</p>
+<ul>
+  <li>Your photos, videos, or anything derived from them</li>
+  <li>Your name, email address, or any contact information</li>
+  <li>Device identifiers, advertising identifiers (IDFA), or any other identifier</li>
+  <li>Location data</li>
+  <li>Usage statistics, analytics, or crash reports</li>
+  <li>Any information about how you use the app</li>
+</ul>
+<p>The app contains no third-party SDKs, no advertising frameworks, and no analytics
+libraries. It makes no network requests to us.</p>
+
+<h2>In-app purchase</h2>
+<p>Swipeshine offers a one-time, non-consumable in-app purchase that unlocks unlimited
+photo cleanup. All payments are processed by Apple through the App Store. We never see
+or receive your payment details, name, or Apple Account information. Apple's handling
+of that transaction is governed by
+<a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+<p>To know whether you have already purchased the unlock, the app reads your App Store
+purchase entitlement from the device. This stays on your device.</p>
+
+<h2>The free quota</h2>
+<p>Swipeshine's free tier (40 photos) is tracked in the iOS Keychain <strong>on your
+device</strong>. It is not sent anywhere. We have no way to know how many photos you
+have cleaned.</p>
 
 <h2>Children</h2>
-<p>Because PySpire collects no data of any kind, it is safe for learners of all ages.</p>
+<p>Swipeshine does not collect data from anyone, including children under 13.</p>
+
+<h2>Your control</h2>
+<p>You can revoke Swipeshine's photo library access at any time in
+<strong>iOS Settings → Privacy &amp; Security → Photos → Swipeshine</strong>. The app
+will stop being able to show or delete photos, and no data of yours is retained by us
+because we never had any.</p>
+<p>Deleting the app removes all of its on-device data. The free-quota counter is stored
+in the Keychain, which iOS retains after uninstalling an app; if you reinstall
+Swipeshine, your remaining free quota is restored rather than reset. You can clear it by
+erasing your device.</p>
 
 <h2>Changes</h2>
-<p>If this policy ever changes, the updated version will be published at this page.</p>
+<p>If this policy changes, the updated version will be posted at this URL with a new
+"last updated" date. Since the app collects no data, we do not anticipate changes.</p>
 
 <h2>Contact</h2>
-<p><a href="mailto:phoenixchao2002@foxmail.com">phoenixchao2002@foxmail.com</a></p>
+<p>Questions about this policy: <a href="mailto:phoenixchao2002@foxmail.com">phoenixchao2002@foxmail.com</a></p>
+
+<hr>
+
+<!-- ── 其他语言。政策正文不需要「不让机翻」——要的是看得懂，不是排得上名。 ── -->
+
+<div class="lang" lang="de">
+<h2>Deutsch</h2>
+<p>Swipeshine erhebt keine Daten. Es gibt keinen Server, kein Konto, keine Analyse und
+kein Tracking. Deine Fotos verlassen dein Gerät nicht.</p>
+<p>Die App fragt aus genau zwei Gründen nach Zugriff auf deine Fotomediathek: um dir
+deine Fotos anzuzeigen und um die zu löschen, die du auswählst. Jede Verarbeitung findet
+auf deinem Gerät statt. Swipeshine hat keine Server — es gibt also gar keinen Ort, an den
+deine Fotos gesendet werden könnten.</p>
+<p>Der In-App-Kauf wird vollständig von Apple abgewickelt. Wir erhalten keine
+Zahlungsdaten und keine Informationen zu deinem Apple-Account. Das Kontingent der
+kostenlosen Version wird ausschließlich lokal im iOS-Schlüsselbund gespeichert.</p>
+<p>Du kannst den Fotozugriff jederzeit unter <strong>iOS-Einstellungen → Datenschutz &amp;
+Sicherheit → Fotos → Swipeshine</strong> widerrufen. Fragen:
+<a href="mailto:phoenixchao2002@foxmail.com">phoenixchao2002@foxmail.com</a></p>
+</div>
+
+<div class="lang" lang="fr">
+<h2>Français</h2>
+<p>Swipeshine ne collecte aucune donnée. Il n'y a aucun serveur, aucun compte, aucune
+analyse et aucun suivi. Tes photos ne quittent pas ton appareil.</p>
+<p>L'appli demande l'accès à ta photothèque pour exactement deux raisons : te montrer tes
+photos et supprimer celles que tu choisis. Tout le traitement se fait sur ton appareil.
+Swipeshine n'a aucun serveur — il n'existe donc littéralement aucun endroit où tes photos
+pourraient être envoyées.</p>
+<p>L'achat intégré est entièrement traité par Apple. Nous ne recevons ni tes données
+bancaires ni aucune information sur ton compte Apple. Le quota gratuit est stocké
+uniquement en local, dans le trousseau iOS.</p>
+<p>Tu peux révoquer l'accès aux photos à tout moment dans <strong>Réglages iOS →
+Confidentialité et sécurité → Photos → Swipeshine</strong>. Contact :
+<a href="mailto:phoenixchao2002@foxmail.com">phoenixchao2002@foxmail.com</a></p>
+</div>
+
+<div class="lang" lang="es">
+<h2>Español</h2>
+<p>Swipeshine no recoge ningún dato. No hay servidor, ni cuenta, ni analíticas, ni
+rastreo. Tus fotos no salen de tu dispositivo.</p>
+<p>La app pide acceso a tu fototeca por exactamente dos razones: mostrarte tus fotos y
+borrar las que elijas. Todo el procesamiento ocurre en tu dispositivo. Swipeshine no
+tiene servidores, así que literalmente no existe ningún lugar al que puedan enviarse tus
+fotos.</p>
+<p>La compra dentro de la app la procesa íntegramente Apple. No recibimos tus datos de
+pago ni información alguna sobre tu cuenta de Apple. El cupo gratuito se guarda
+únicamente en el llavero de iOS, en tu dispositivo.</p>
+<p>Puedes revocar el acceso a las fotos cuando quieras en <strong>Ajustes de iOS →
+Privacidad y seguridad → Fotos → Swipeshine</strong>. Contacto:
+<a href="mailto:phoenixchao2002@foxmail.com">phoenixchao2002@foxmail.com</a></p>
+</div>
+
+<div class="lang" lang="it">
+<h2>Italiano</h2>
+<p>Swipeshine non raccoglie alcun dato. Non c'è nessun server, nessun account, nessuna
+analisi e nessun tracciamento. Le tue foto non lasciano il tuo dispositivo.</p>
+<p>L'app chiede l'accesso alla libreria foto per due motivi soltanto: mostrarti le foto
+ed eliminare quelle che scegli. Ogni elaborazione avviene sul tuo dispositivo.
+Swipeshine non ha server — quindi non esiste letteralmente alcun posto dove le tue foto
+potrebbero essere inviate.</p>
+<p>L'acquisto in-app è gestito interamente da Apple. Non riceviamo i tuoi dati di
+pagamento né alcuna informazione sul tuo account Apple. Il quota gratuito è memorizzato
+solo localmente, nel portachiavi di iOS.</p>
+<p>Puoi revocare l'accesso alle foto in qualsiasi momento in <strong>Impostazioni iOS →
+Privacy e sicurezza → Foto → Swipeshine</strong>. Contatto:
+<a href="mailto:phoenixchao2002@foxmail.com">phoenixchao2002@foxmail.com</a></p>
+</div>
+
+<footer>Swipeshine · <a href="support.html">Support</a></footer>
+
+</main>
 </body>
 </html>
